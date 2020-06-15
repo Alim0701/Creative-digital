@@ -4,6 +4,10 @@
   background-attachment: fixed;
   min-height: 650px;
   @include sectionPadding;
+
+  @include medium {
+    background-attachment: scroll;
+  }
 }
 
 .form__container {

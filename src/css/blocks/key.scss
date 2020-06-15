@@ -7,6 +7,10 @@
   display: flex;
   align-items: center;
   color: #fff;
+
+  @include medium {
+    background-attachment: scroll;
+  }
 }
 
 .key__container {
