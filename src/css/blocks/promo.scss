@@ -5,6 +5,8 @@
   transition: transform 0.2s linear;
   background-attachment: fixed;
   min-height: 650px;
+  position: relative;
+  padding-top: 250px;
 }
 
 .promo_active {
@@ -16,11 +18,5 @@
 }
 
 .promo__container {
-  padding: 250px 0 100px;
   text-align: center;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
 }
