@@ -1,0 +1,60 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Gotham";
+  color: $black;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  max-width: 1175px;
+  width: 95%;
+  margin: 0 auto;
+}

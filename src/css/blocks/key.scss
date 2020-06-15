@@ -1,0 +1,83 @@
+.key {
+  background-image: url(../img/bg/akita.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.key__container {
+  display: flex;
+  justify-content: space-between;
+
+  @include medium {
+    justify-content: center;
+  }
+}
+
+.key__left {
+  max-width: 470px;
+
+  @include extra-small {
+    padding: 0 10px;
+  }
+}
+
+.key__right {
+  @include medium {
+    display: none;
+  }
+}
+
+.key__title {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+
+  @include extra-small {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+}
+
+.key__list {
+  margin-top: 65px;
+
+  @include extra-small {
+    margin-bottom: 50px;
+  }
+}
+
+.key__item {
+  background-color: $blue;
+  padding: 12px 0 12px 12px;
+  margin-top: 20px;
+
+  &:first-child {
+    margin-top: 0;
+    max-width: 370px;
+  }
+
+  &:nth-child(2) {
+    max-width: 400px;
+  }
+
+  &:last-child {
+    max-width: 430px;
+  }
+}
+
+.key__text {
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.key__icon {
+  max-width: 100%;
+}

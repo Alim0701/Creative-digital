@@ -1,0 +1,19 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  z-index: 15;
+
+  @include medium {
+    padding: 15px 0;
+    border: none;
+  }
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

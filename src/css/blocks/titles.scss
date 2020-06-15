@@ -1,0 +1,103 @@
+.promo__title {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 152px;
+
+  @include large {
+    font-size: 120px;
+  }
+
+  @include medium {
+    font-size: 80px;
+  }
+
+  @include extra-small {
+    font-size: 52px;
+  }
+}
+
+.promo__sub-title {
+  font-size: 25px;
+  color: $blue;
+  line-height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+
+  @include large {
+    font-size: 20px;
+    letter-spacing: 15px;
+  }
+
+  @include medium {
+    font-size: 15px;
+    letter-spacing: 5px;
+  }
+
+  @include extra-small {
+    letter-spacing: 0;
+  }
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 38px;
+  line-height: 45px;
+  font-weight: 500;
+  position: relative;
+
+  @include medium {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  @include extra-small {
+    line-height: 35px;
+  }
+}
+
+.features__title {
+  color: #fff;
+
+  &:before {
+    content: "W";
+    @include wordContent;
+  }
+}
+
+.blog__title {
+  &:before {
+    content: "B";
+    @include wordContent;
+  }
+}
+
+.sub__title-blog {
+  font-size: 30px;
+  margin: 120px 0 80px;
+
+  @include large {
+    font-size: 25px;
+    margin: 90px 0 60px;
+  }
+
+  @include extra-small {
+    font-size: 20px;
+    margin: 70px 0 30px;
+  }
+}
+
+.team__title {
+  &:before {
+    content: "T";
+    @include wordContent;
+  }
+}
+
+.form__title {
+  color: #fff;
+  &:before {
+    content: "C";
+    @include wordContent;
+  }
+}

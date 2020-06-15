@@ -1,0 +1,44 @@
+.action-area {
+  background-color: $blue;
+  padding: 100px 0;
+
+  @include large {
+    padding: 80px 0 80px;
+  }
+}
+
+.action__list {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 60px;
+
+  @include large {
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+  }
+}
+
+.action__item {
+  display: flex;
+
+  @include extra-small {
+    padding: 0 10px;
+  }
+}
+
+.action__icon {
+  width: 70px;
+  height: 70px;
+  fill: #fff;
+  margin-right: 30px;
+
+  @include extra-small {
+    display: none;
+  }
+}
+
+.action__text {
+  max-width: 450px;
+  color: #fff;
+}

@@ -1,0 +1,26 @@
+.promo {
+  background-image: url(../img/bg/promo.jpg);
+  background-size: cover;
+  height: 100vh;
+  transition: transform 0.2s linear;
+  background-attachment: fixed;
+  min-height: 650px;
+}
+
+.promo_active {
+  transform: translateX(-30vw);
+
+  @include extra-small {
+    transform: translate(0);
+  }
+}
+
+.promo__container {
+  padding: 250px 0 100px;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}

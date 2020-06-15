@@ -1,0 +1,25 @@
+.footer {
+  background-color: $black;
+  padding: 45px 0;
+  width: 100%;
+  color: #fff;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include medium {
+    flex-direction: column;
+  }
+}
+
+.footer__left {
+  font-size: 13px;
+  font-family: "Roboto";
+
+  @include medium {
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,9 @@
+.features {
+  padding: 170px 0 130px;
+  background-color: $blue;
+  text-align: center;
+
+  @include medium {
+    padding: 130px 0 100px;
+  }
+}

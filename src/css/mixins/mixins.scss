@@ -1,0 +1,36 @@
+@mixin wordContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 250px;
+  font-family: "Roboto";
+  font-weight: bold;
+  opacity: 0.2;
+
+  @include medium {
+    font-size: 200px;
+  }
+}
+
+@mixin sectionPadding {
+  padding: 140px 0 100px;
+
+  @include medium {
+    padding: 130px 0 90px;
+  }
+}
+
+@mixin inputStyle {
+  background-color: transparent;
+  border: 1px solid #fff;
+  outline: none;
+  padding: 0 15px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 36px;
+
+  &::placeholder {
+    color: #fff;
+  }
+}
